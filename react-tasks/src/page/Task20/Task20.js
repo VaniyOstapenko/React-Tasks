@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Task20() {
     const arr = [1, 2, 'Vania', 4, 'Ostapenko', 6]
     function Show() {
-        console.log(arr[Math.floor(Math.random * 6)]);
+        console.log(arr[Math.floor(Math.random() * 6)]);
     }
     return (
         <>
@@ -17,4 +17,4 @@ function Task20() {
     );
 }
 
-export default Task20
+export default Task20;

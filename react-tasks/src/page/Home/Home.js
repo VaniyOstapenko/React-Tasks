@@ -24,6 +24,14 @@ function Home() {
             <p><Link to='/task18'>Задача 18</Link></p>
             <p><Link to='/task19'>Задача 19</Link></p>
             <p><Link to='/task20'>Задача 20</Link></p>
+            <p><Link to='/task21'>Задача 21</Link></p>
+            <p><Link to='/task22'>Задача 22</Link></p>
+            <p><Link to='/task23'>Задача 23</Link></p>
+            <p><Link to='/task24'>Задача 24</Link></p>
+            <p><Link to='/task25'>Задача 25</Link></p>
+            <p><Link to='/task26'>Задача 26</Link></p>
+            <p><Link to='/task27'>Задача 27</Link></p>
+            <p><Link to='/task28'>Задача 28</Link></p>
         </>
     );
 }
