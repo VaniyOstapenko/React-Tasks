@@ -12,7 +12,13 @@ function Task30() {
     }
 
     function isData() {
-        console.log(inp);
+        try {
+            if (!inp.name || !inp.surname) throw new Error('пустой ввод')
+            if (!isNaN(inp.name )|| !isNaN(inp.surname)) throw new Error('введите строку')
+                console.log(inp);
+        } catch (error) {
+            console.log(error.message);
+        }
     }
 
     return (
