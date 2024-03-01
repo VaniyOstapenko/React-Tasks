@@ -3,17 +3,17 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function Task64() {
-    const [num, setNum] = useState(null);
+    const [num, setNum] = useState('');
 
     async function axiosRequest() {
         const randomNum = Math.floor(Math.random() * 100);
         const response = await axios.get(`http://numbersapi.com/${randomNum}`)
-        setNum(response.random)
+        setNum(response.data)
     }
 
     useEffect(() => {
-        console.log(axiosRequest(num))
-    })
+        axiosRequest()
+    }, [])
 
 
     return (
@@ -23,7 +23,7 @@ function Task64() {
                 который при первичном рендеринге отправляет запрос к API с рандомно сгенерированным числом и отображает
                 результат в консоль.</p>
 
-
+            <p>{num}</p>
             <p><Link to='/'>HomePage</Link></p>
         </>
     );
