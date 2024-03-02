@@ -67,8 +67,23 @@ function Home() {
             <p><Link to='/task61'>Задача 61</Link></p>
             <p><Link to='/task62'>Задача 62</Link></p>
             <p><Link to='/task63'>Задача 63</Link></p>
-            <p><Link to='/task64'>Задача 64</Link></p> 
-            <p><Link to='/task65'>Задача 65</Link></p> 
+            <p><Link to='/task64'>Задача 64</Link></p>
+            <p><Link to='/task65'>Задача 65</Link></p>
+            <p><Link to='/task66'>Задача 66</Link></p>
+            <p><Link to='/task67'>Задача 67</Link></p>
+            <p><Link to='/task68'>Задача 68</Link></p>
+            <p><Link to='/task69'>Задача 69</Link></p>
+            <p><Link to='/task70'>Задача 70</Link></p>
+            <p><Link to='/task71'>Задача 71</Link></p>
+            <p><Link to='/task72'>Задача 72</Link></p>
+            <p><Link to='/task73'>Задача 73</Link></p>
+            <p><Link to='/task74'>Задача 74</Link></p>
+            <p><Link to='/task75'>Задача 75</Link></p>
+            <p><Link to='/task76'>Задача 76</Link></p>
+            <p><Link to='/task77'>Задача 77</Link></p>
+            <p><Link to='/task78'>Задача 78</Link></p>
+            <p><Link to='/task79'>Задача 79</Link></p>
+            <p><Link to='/task80'>Задача 80</Link></p>
         </>
     );
 }

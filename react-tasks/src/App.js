@@ -65,6 +65,21 @@ import Task62 from './page/Task62/Task62';
 import Task63 from './page/Task63/Task63';
 import Task64 from './page/Task64/Task64';
 import Task65 from './page/Task65/Task65';
+import Task66 from './page/Task66/Task66';
+import Task67 from './page/Task67/Task67';
+import Task68 from './page/Task68/Task68';
+import Task69 from './page/Task69/Task69';
+import Task70 from './page/Task70/Task70';
+import Task71 from './page/Task71/Task71';
+import Task72 from './page/Task72/Task72';
+import Task73 from './page/Task73/Task73';
+import Task74 from './page/Task74/Task74';
+import Task75 from './page/Task75/Task75';
+import Task76 from './page/Task76/Task76';
+import Task77 from './page/Task77/Task77';
+import Task78 from './page/Task78/Task78';
+import Task79 from './page/Task79/Task79';
+import Task80 from './page/Task80/Task80';
 
 function App() {
   return (
@@ -136,6 +151,21 @@ function App() {
         <Route path='/task63' element={<Task63 />}></Route>
         <Route path='/task64' element={<Task64 />}></Route>
         <Route path='/task65' element={<Task65 />}></Route>
+        <Route path='/task66' element={<Task66 />}></Route>
+        <Route path='/task67' element={<Task67 />}></Route>
+        <Route path='/task68' element={<Task68 />}></Route>
+        <Route path='/task69' element={<Task69 />}></Route>
+        <Route path='/task70' element={<Task70 />}></Route>
+        <Route path='/task71' element={<Task71 />}></Route>
+        <Route path='/task72' element={<Task72 />}></Route>
+        <Route path='/task73' element={<Task73 />}></Route>
+        <Route path='/task74' element={<Task74 />}></Route>
+        <Route path='/task75' element={<Task75 />}></Route>
+        <Route path='/task76' element={<Task76 />}></Route>
+        <Route path='/task77' element={<Task77 />}></Route>
+        <Route path='/task78' element={<Task78 />}></Route>
+        <Route path='/task79' element={<Task79 />}></Route>
+        <Route path='/task80' element={<Task80 />}></Route>
       </Routes >
     </>
   );
