@@ -14,8 +14,6 @@ function Task64() {
     useEffect(() => {
         axiosRequest()
     }, [])
-
-
     return (
         <>
             <h1>Задача 64</h1>
@@ -24,6 +22,7 @@ function Task64() {
                 результат в консоль.</p>
 
             <p>{num}</p>
+
             <p><Link to='/'>HomePage</Link></p>
         </>
     );

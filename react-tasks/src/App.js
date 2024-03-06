@@ -86,6 +86,7 @@ import Task83 from './page/Task83/Task83';
 import Task84 from './page/Task84/Task84';
 import { Task81Context, Task82Context, Task83Context, Task84Context } from './Context/Context';
 import { useState } from 'react';
+import Task85 from './page/Task85/Task85';
 
 function App() {
   const obj = {
@@ -210,6 +211,7 @@ function App() {
       <Task84Context.Provider value={{ flag: flag, setFlag: setFlag, background: background, setBackground: setBackground, color: color, setColor: setColor }}>
         <Routes>
           <Route path='/task84' element={<Task84 />}></Route>
+          <Route path='/task85' element={<Task85 />}></Route>
         </Routes>
       </Task84Context.Provider >
     </>
