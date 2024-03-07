@@ -87,6 +87,10 @@ import Task84 from './page/Task84/Task84';
 import { Task81Context, Task82Context, Task83Context, Task84Context } from './Context/Context';
 import { useState } from 'react';
 import Task85 from './page/Task85/Task85';
+import Task86 from './Task86/Task86';
+import Task87 from './Task87/Task87';
+import Task88 from './Task88/Task88';
+import Task89 from './Task89/Task89';
 
 function App() {
   const obj = {
@@ -212,6 +216,10 @@ function App() {
         <Routes>
           <Route path='/task84' element={<Task84 />}></Route>
           <Route path='/task85' element={<Task85 />}></Route>
+          <Route path='/task86' element={<Task86 />}></Route>
+          <Route path='/task87' element={<Task87 />}></Route>
+          <Route path='/task88' element={<Task88 />}></Route>
+          <Route path='/task89' element={<Task89 />}></Route>
         </Routes>
       </Task84Context.Provider >
     </>
