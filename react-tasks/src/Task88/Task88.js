@@ -43,7 +43,7 @@ function Task88() {
                 соответствующий нажатой кнопке.</p>
 
             {colors.map((el) => <p onClick={(e) => dispatch({ action: 'changeColor', text: e.target.textContent })}>{el}</p>)}
-            <h1 style={{ color: color }}>Hi there</h1>
+            <h1 style={{ color: color }}>Hello</h1>
             <p><Link to='/'>HomePage</Link></p>
         </>
     );
