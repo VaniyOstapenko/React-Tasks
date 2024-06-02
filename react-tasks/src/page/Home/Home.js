@@ -96,6 +96,9 @@ function Home() {
             <p><Link to='/task90'>Задача 90</Link></p>
             <p><Link to='/task91'>Задача 91</Link></p>
             <p><Link to='/task92'>Задача 92</Link></p>
+            <p><Link to='/task93'>Задача 93</Link></p>
+            <p><Link to='/task94'>Задача 94</Link></p>
+            <p><Link to='/task95'>Задача 95</Link></p>
         </>
     );
 }
