@@ -97,6 +97,9 @@ import Task92 from './page/Task92/Task92';
 import Task93 from './page/Task93/Task93';
 import Task94 from './page/Task94/Task94';
 import Task95 from './page/Task95/Task95';
+import Task96 from './page/Task96/Task96';
+import Task97 from './page/Task97/Task97';
+import Task98 from './page/Task98/Task98';
 
 function App() {
   const obj = {
@@ -232,6 +235,9 @@ function App() {
           <Route path='/task93' element={<Task93 />}></Route>
           <Route path='/task94' element={<Task94 />}></Route>
           <Route path='/task95' element={<Task95 />}></Route>
+          <Route path='/task96' element={<Task96 />}></Route>
+          <Route path='/task97' element={<Task97 />}></Route>
+          <Route path='/task98' element={<Task98 />}></Route>
         </Routes>
       </Task84Context.Provider >
     </>
